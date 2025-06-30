@@ -1,6 +1,6 @@
 
 import { Venda } from "./interfaces/IVenda";
-import { gerarResumoVendas, atualizarStatusVenda, registrarVenda, prepararVendaParaCliente } from "./utils/RelatorioVendas";
+import { gerarResumoVendas, atualizarStatusVenda, registrarVenda, prepararVendaParaCliente } from "./utils/relatorioVendas";
 
 let venda1: Venda = {
     idVenda: '1',
